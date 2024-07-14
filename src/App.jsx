@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact' ;
 import Copyright from './components/Copyright';
+import Certifications from './components/Certifications';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar/> 
       <Hero/>
       <About/>
+      <Certifications/>
       <Technologies/>
       <Experience/>
       <Projects/>
