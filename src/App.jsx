@@ -39,11 +39,6 @@ const App = () => {
         <Contact/>
         <Copyright/>
       </div>
-      <div className="fixed bottom-4 right-4 z-50">
-        <button onClick={togglePlayPause} className="text-2xl p-2 bg-gray-800 text-white rounded-full shadow-md">
-          {isPlaying ? <FaPause /> : <FaPlay />}
-        </button>
-      </div>
     </div>
   );
 }
