@@ -44,10 +44,6 @@ const App = () => {
           {isPlaying ? <FaPause /> : <FaPlay />}
         </button>
       </div>
-      <audio ref={audioRef} loop>
-        <source src="/background-music.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
     </div>
   );
 }
