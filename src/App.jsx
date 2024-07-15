@@ -8,21 +8,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Copyright from './components/Copyright';
 import Certifications from './components/Certifications';
-import { FaPlay, FaPause } from 'react-icons/fa';
 
 const App = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
-
-  const togglePlayPause = () => {
-    if (isPlaying) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-  };
-
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
       <div className='fixed top-0 -z-10 h-full w-full '>
